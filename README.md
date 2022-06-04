@@ -14,8 +14,18 @@ Source 1: istockphoto.com | Features: has photos from getty images, has many ima
 
 Source 2: shutterstock.com | Features: very fast image gathering speed, has many images
 
-Source 3: freerangestock.com | no notable source features
-
-Source 4: jooin.com | Features: allows for specialized image requests, only accessible though request by name
-
 # Functions
+resource.start()
+
+sets the speed of server communication for other functions
+
+resource.setSource(source)
+
+sets the source of images to one of the websites listed above
+
+resource.validate(id)
+
+
+resource.randomMyriad()
+
+returns a randomly sized array of random images
